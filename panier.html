@@ -32,14 +32,29 @@
   </div>
 </nav>
 
-
-<div class="container mt-4">
-    <h1>Panier</h1>
-  <div class="row" id="cards-container">
-
-  </div>
+<div class="container mt-4 row">
+    <h1 class="col-12">Panier</h1>
+    <div class="col-6">
+      <div class="container ">
+          <div class="row" id="cards-container">
+          </div>
+      </div>
+    </div>
+    <form action="confirmation.html" method="get" class="col-6 container">
+        <div class="form-group row">
+            <label for="username" class="col-4">Username</label>
+            <input type="text" class="form-control col-7" id="username" name="username" required>
+        </div>
+        <div class="form-group row">
+            <label for="password" class="col-4">Password</label>
+            <input type="password" class="form-control col-7" id="password" required>
+        </div>
+        <div class="form-group row">
+            <span class="col-4"></span>
+            <button type="submit" class="btn btn-primary col-7">Connexion</button>
+        </div>
+    </form>
 </div>
-
 </body>
 </html>
 <body>
